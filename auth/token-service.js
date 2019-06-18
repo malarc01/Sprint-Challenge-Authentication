@@ -10,7 +10,8 @@ function generateToken(user) {
   const payload = {
     subject: user.id,
     username: user.username,
-    roles:['Student'],
+    // password: user.password,
+    // roles:['Student'],
   }
 
   const options = {
